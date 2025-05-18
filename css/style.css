@@ -1,0 +1,57 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+#testimonial{
+  background-color: whitesmoke;
+}
+
+.text-testimonial{
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-align: center;
+  line-height: 1.2;
+}
+
+#dog-img{
+  height: 100px;
+  padding-top: .5rem;
+  border-radius: 50%;
+}
+
+#dog-name{
+  font-size: large;
+  font-weight: 200;
+  padding-top: 1.5%;
+}
+
+.sponsors{
+  display: flex;
+  justify-content: space-evenly;
+  
+}
